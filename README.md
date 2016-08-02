@@ -5,6 +5,6 @@ The module plotmaker_poly.py contains one base class, DataReader, whose __init__
 
 The module plotmaker_master.py contains the factory method plotmaker_master that controls the behaviour of the plotmaker_poly.py module. If input data file name contains the word "Heatmap", it instantiates the plotmaker method under the HeatMapMaker subclass. However, if the input file name contains the word "Barplot", it instantiates the plotmaker method under the BarPlotMaker subclass.
 
-The test_plotmaker_poly contains unit tests for the HeatMapMaker, and BarPlotMaker subclasses, and uses py.test unit testing framework.
+The test_plotmaker_poly contains unit tests for the HeatMapMaker, and BarPlotMaker subclasses, and uses py.test unit testing framework. Also included are two sample data files for barplot and heatmap.
 
 There is scope to improve the code, and this will be updated in future.
