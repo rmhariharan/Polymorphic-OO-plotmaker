@@ -7,4 +7,4 @@ The module plotmaker_master.py contains the factory method plotmaker_master that
 
 The test_plotmaker_poly contains unit tests for the HeatMapMaker, and BarPlotMaker subclasses, and uses py.test unit testing framework. Also included are two sample data files for barplot and heatmap.
 
-There is scope to improve the code, and this will be updated in future. This is just sample code to drive home the concept of polymorphism, and its functionality, at the moment, is trivial. 
+There is scope to improve the code, and this will be updated in future. This is just sample code to drive home the concept of polymorphism, and its functionality, for now, is trivial. 
